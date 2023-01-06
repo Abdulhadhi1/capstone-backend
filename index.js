@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
   res.send("Welcome to Dress API");
 });
 
-const mongourl = "mongodb+srv://abdul:abdul123@cluster0.eiczdgf.mongodb.net/womensdress?retryWrites=true&w=majority"
+const mongourl = "dburl"
 
 const port = 5000;
 
